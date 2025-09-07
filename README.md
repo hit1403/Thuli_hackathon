@@ -2,19 +2,19 @@
 
 A React Native mobile application that delivers personalized fashion recommendations through an intelligent style quiz and capsule wardrobe optimization system.
 
+## Demo
+Watch the DEMO here : https://drive.google.com/file/d/1KYw-1R_t8StdfBXZawt7kLeCjS0JpHhv/view?usp=drive_link
+
 ## 🚀 Features
 
 ### Core Functionality
 - **Interactive Style Quiz**: 20-item quiz to understand user fashion preferences
 - **AI-Powered Capsule Wardrobe**: Optimized selection of 8-20 items that maximize outfit combinations
-- **Serendipity Slider**: Control between safe recommendations and adventurous style exploration
 - **Style Personality Analysis**: Detailed insights into user's fashion preferences
 
 ### Advanced Features
 - **Outfit Visualizer**: Interactive mannequin showing outfit combinations with compatibility scoring
 - **Color Harmony Analysis**: Smart color palette suggestions based on color theory
-- **Trend Analysis**: Seasonal trends and currently trending fashion items
-- **Real-time Explanations**: AI-generated explanations for each recommendation
 
 ## 🏗️ Architecture
 
@@ -86,18 +86,6 @@ score = α * similarity + β * novelty + γ * diversity
 - **Personality Types**: 5 distinct style personalities based on preferences
 - **Trend Detection**: Seasonal and temporal pattern analysis
 
-## 🎨 Design Philosophy
-
-### User Experience
-- **Intuitive Navigation**: Clear flow from quiz to recommendations
-- **Visual Feedback**: Progress indicators and loading states
-- **Personalization**: Tailored content based on user preferences
-
-### Visual Design
-- **Modern UI**: Clean, minimalist design with gradient accents
-- **Color Palette**: Professional blues and purples with white space
-- **Typography**: Clear hierarchy with readable fonts
-- **Responsive**: Adapts to different screen sizes
 
 ## 🔧 API Endpoints
 
@@ -110,10 +98,6 @@ score = α * similarity + β * novelty + γ * diversity
 - `POST /recommendations` - Get personalized recommendations
 - `POST /capsule` - Generate capsule wardrobe
 
-### Analysis
-- `GET /trends/seasonal` - Seasonal trend analysis
-- `GET /trends/trending` - Currently trending items
-- `POST /analysis/color-harmony` - Color harmony analysis
 
 ## 🚀 Deployment
 
@@ -145,20 +129,6 @@ expo build:ios
 - **Real-time Updates**: Live trend analysis and inventory updates
 - **Personalization**: Learning from user interactions
 
-### Feature Additions
-- **Social Features**: Share capsules and get feedback
-- **Shopping Integration**: Direct purchase links
-- **Wardrobe Management**: Track owned items
-- **Seasonal Updates**: Automatic capsule refreshing
-
-## 🏆 Competitive Advantages
-
-1. **Scientific Approach**: Color theory and fashion psychology integration
-2. **Explainable AI**: Clear reasoning for each recommendation
-3. **Outfit Optimization**: Mathematical approach to capsule creation
-4. **Serendipity Control**: User-controlled exploration vs. safety
-5. **Comprehensive Analysis**: Multi-dimensional style profiling
-
 ## 📝 Technical Specifications
 
 ### Backend Stack
@@ -179,20 +149,6 @@ expo build:ios
 3. **Feature Extraction**: CLIP embedding generation
 4. **Storage**: Pickle files for fast loading
 
-## 🎨 Style Guide
-
-### Color Scheme
-- **Primary**: #667eea (Gradient Blue)
-- **Secondary**: #764ba2 (Gradient Purple)
-- **Accent**: #27ae60 (Success Green)
-- **Error**: #e74c3c (Error Red)
-- **Text**: #2c3e50 (Dark Blue-Gray)
-
-### Component Design
-- **Cards**: Rounded corners (12-16px), subtle shadows
-- **Buttons**: Gradient backgrounds, bold text
-- **Typography**: Clear hierarchy, readable sizes
-- **Spacing**: Consistent 16px grid system
 
 ## 📊 Analytics & Insights
 
@@ -208,12 +164,3 @@ expo build:ios
 - **Feature Usage**: Most popular app sections
 - **Conversion Potential**: Items users show interest in
 
-## 🔒 Privacy & Security
-
-- **Data Minimization**: Only collect necessary style preferences
-- **Local Storage**: User data stored locally when possible
-- **API Security**: CORS configuration for mobile access
-- **No Personal Data**: Focus on style preferences, not personal information
-
-
-**StyleGenius** - Where AI meets fashion to create your perfect wardrobe. 👗✨
