@@ -215,18 +215,5 @@ expo build:ios
 - **API Security**: CORS configuration for mobile access
 - **No Personal Data**: Focus on style preferences, not personal information
 
-## 🤝 Contributing
-
-This project was developed as a fashion recommendation system showcase. The codebase demonstrates:
-- Modern full-stack development practices
-- AI/ML integration in mobile apps
-- User-centered design principles
-- Scalable architecture patterns
-
-## 📄 License
-
-This project is developed for educational and demonstration purposes, showcasing advanced fashion recommendation algorithms and modern mobile app development techniques.
-
----
 
 **StyleGenius** - Where AI meets fashion to create your perfect wardrobe. 👗✨
